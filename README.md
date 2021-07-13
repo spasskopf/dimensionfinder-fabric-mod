@@ -1,17 +1,19 @@
 # dimensionfinder-fabric-mod
 
-Simple Fabric Mod, that lets you view the hash of the book's content you just threw in a nether portal
+Fabric Mod that lets you view the hashed book-content (I call it Dimension ID).
 
 # Usage
 
-Use Minecraft 20w14 infinite snapshopt!
-<ul>
-<li>Build a nether portal</li>
-<li>Craft a Book and Quill and write some text</li>
-<li>Light the portal</li>
-<li>Throw the book into the portal</li>
-<li>The hash will be sent in chat</li>
-</ul>
+Designed for the Minecraft [20w14-Infinite Snapshot](https://minecraft.fandom.com/wiki/Java_Edition_20w14%E2%88%9E).
+This snapshot introduced a new dimension system:  
 
-# What can I do with this hash
+* Build a Nether Portal
+    * 10 or more Obsidian + something to light the portal
+* Get a [Book and Quill (Writeable Book)](https://minecraft.fandom.com/wiki/Book_and_Quill)
+    * Book + Feather + Ink Sack
+* Write text
+* Throw the signed book into the portal
+* The content's hash is outputted to the ingame chat
+
+# What can I do with this?
 You might want to look at [this](https://github.com/spasskopf/dimensionfinder) project
